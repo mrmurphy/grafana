@@ -1,8 +1,8 @@
 services:
-- type: pserv
-  name: redis
+- type: web
+  name: grafana
   env: docker
   disk:
     name: data
-    mountPath: /var/lib/redis
+    mountPath: /var/lib/grafana
     sizeGB: 10
