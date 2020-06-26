@@ -1,5 +1,1 @@
-FROM redis:6-alpine
-
-COPY redis.conf .
-
-ENTRYPOINT ["redis-server", "./redis.conf"]
+FROM grafana/grafana:7.0.4
